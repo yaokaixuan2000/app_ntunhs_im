@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">paperscissorstone</string>
+    <string name="rock_paper_scissors">Rock Paper Scissors</string>
+    <string name="computer">Computer</string>
+    <string name="player">Player</string>
+    <string name="wait_player">Wait Player</string>
+    <string name="scissors">Scissors</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="play_choose_a_button">Play Choose a button</string>
+    <string name="win">You win !!!</string>
+    <string name="lose">You lose!!!</string>
+    <string name="draw">Draw!!!</string>
+
+
+</resources>
