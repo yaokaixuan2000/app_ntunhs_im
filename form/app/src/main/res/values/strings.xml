@@ -1,10 +1,19 @@
 <resources>
-    <string name="app_name">form</string>
+    <string name="app_name">P02</string>
+    <string name="id">ID :</string>
+    <string name="password">Password :</string>
+    <string name="name">Name :</string>
+    <string name="birth_date">Birth Date :</string>
+    <string name="gender">Gender :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hobbies">Hobbies :</string>
+    <string name="sing">Sing</string>
     <string-array name="city">
-        <item>台北市</item>
-        <item>新北市</item>
-        <item>桃園市</item>
-        <item>新竹縣</item>
-        <item>新竹市</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
 </resources>

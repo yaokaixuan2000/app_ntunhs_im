@@ -1,4 +1,4 @@
-package com.example.form
+package com.example.p02
 
 import org.junit.Test
 
