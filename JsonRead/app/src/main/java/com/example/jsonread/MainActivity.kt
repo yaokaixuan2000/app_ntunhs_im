@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.navigation.ui.AppBarConfiguration
 import com.google.android.material.snackbar.Snackbar
+import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -34,10 +35,15 @@ class MainActivity : AppCompatActivity(),CoroutineScope {
         launch{
             val json = URL("https://api.jsonserve.com/KizxuV").readText()
             Log.w(TAG,json)
-            parseJson(json)
+            val singers = Gson().fromJson(json, Singers::class.java)
+            for( w in singers.singers){
+                Log.d(TAG,"onCreate: ${w.name},${w.agency},${w.year_of_debut}")
+            }
+//            parseJson(json)
         }
 
     }
+
 
     private fun parseJson(json: String) {
         val jsonObject = JSONObject(json)
